@@ -1,0 +1,78 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+        },
+        {
+          name: 'mixamo.com',
+        },
+      ],
+      path: 'sampledata/models/arissa.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Arissa_MAT',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Arissa_Mid_DIFF',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/arissa.fbx',
+    name: 'arissa',
+    recenter: 'root',
+    scale: 5.4932540000000003,
+
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\arissa.fbm\\Arissa_Mid_DIFF.jpg',
+      name: 'Arissa_Mid_DIFF',
+      pipeline_name: 'arissa.fbm\\Arissa_Mid_DIFF.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,86 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+        },
+        {
+          name: 'mixamo.com',
+        },
+      ],
+      path: 'sampledata/models/akai.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Akai_MAT',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'akai_diffuse',
+        },
+        {
+          normalMap: 'akai_normal',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/akai.fbx',
+    name: 'akai',
+    recenter: 'root',
+    scale: 5.4932540000000003,
+
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\akai.fbm\\akai_diffuse.png',
+      name: 'akai_diffuse',
+      pipeline_name: 'akai.fbm\\akai_diffuse.png',
+    },
+    {
+      file: 'sampledata/models\\akai.fbm\\akai_normal.png',
+      name: 'akai_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'akai.fbm\\akai_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,109 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+        },
+        {
+          name: 'mixamo.com',
+        },
+      ],
+      path: 'sampledata/models/alpha.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Alpha_Joints_MAT',
+      parameters: [
+        {
+          baseColor: [
+            0.81499999999999995,
+            0.94551799999999997,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Alpha_Body_MAT',
+      parameters: [
+        {
+          baseColor: [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.20000000000000001,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/alpha.fbx',
+    name: 'alpha',
+    recenter: 'root',
+    scale: 5.4932540000000003,
+
+  },
+  version: '0.54:2',
+}
